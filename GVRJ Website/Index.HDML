@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Greenville Roleplay Jurisdiction</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <div class="logo" aria-label="GRJ Logo">GRJ</div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#join">Join</a></li>
+      </ul>
+      <button class="burger" aria-label="Open menu" onclick="toggleMenu()">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" tabindex="-1">
+      <h1>Welcome to Greenville Roleplay Jurisdiction</h1>
+      <p>Professional. Realistic. Community-Based Roleplay.</p>
+      <a href="#join" class="btn" aria-label="Go to Join Section">Join Our Discord</a>
+    </section>
+
+    <section id="about">
+      <h2>About GRJ</h2>
+      <p>
+        Greenville Roleplay Jurisdiction is a realistic and professional Roblox roleplay community set in Greenville, WI. 
+        We offer law enforcement, fire/rescue, and civilian operations, built on fairness and fun.
+      </p>
+    </section>
+
+    <section id="departments">
+      <h2>Departments</h2>
+      <ul>
+        <li>
+          <span role="img" aria-label="Police Officer">👮</span>
+          <strong>Greenville Police Department (GPD):</strong> Upholding law and order within Greenville.
+        </li>
+        <li>
+          <span role="img" aria-label="State Patrol">🚓</span>
+          <strong>Wisconsin State Patrol (WSP):</strong> Ensuring safety on highways and assisting local agencies.
+        </li>
+        <li>
+          <span role="img" aria-label="Fire Truck">🚒</span>
+          <strong>Greenville Fire & Rescue (GFR):</strong> Responding to emergencies and protecting the community.
+        </li>
+        <li>
+          <span role="img" aria-label="Civilian">👤</span>
+          <strong>Civilian Operations (CIV):</strong> Experience Greenville life as a civilian.
+        </li>
+      </ul>
+    </section>
+
+    <section id="join">
+      <h2>Join GRJ</h2>
+      <p>Ready to start your journey with us?</p>
+      <a href="https://discord.gg/YOURINVITELINK" class="btn" target="_blank" rel="noopener" aria-label="Join our Discord server">Join the Discord Server</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Greenville Roleplay Jurisdiction. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
